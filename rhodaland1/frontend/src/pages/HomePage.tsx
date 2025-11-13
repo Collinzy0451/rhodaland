@@ -5,7 +5,7 @@ import CategoryCard from "@/components/CategoryCard";
 import ProductCard from "@/components/ProductCard";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import heroImage from "@/assets/hero-construction.jpg";
-import roofingImage from "@/assets/category-others.jpg";
+import roofingImage from "@/assets/category-roofing.jpg";
 import othersImage from "@/assets/category-others.jpg";
 import containerImage from "@/assets/mew/containers/container.jpg";
 import cubicleImage from "@/assets/fif/windows/cubicle.jpg";
