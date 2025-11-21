@@ -10,6 +10,9 @@ import othersImage from "@/assets/category-others.jpg";
 import containerImage from "@/assets/mew/containers/container.jpg";
 import cubicleImage from "@/assets/fif/windows/cubicle.jpg";
 import cementImage from "@/assets/ccm/cement/dangote.jpg";
+import conferenceImage from "@/assets/conference.jpg";
+import officeChairImage from "@/assets/sit.jpg";
+import officeTableChairImage from "@/assets/office.jpg";
 
 const HomePage = () => {
   const featuredProducts = [
@@ -35,6 +38,30 @@ const HomePage = () => {
       price: "₦5,500",
       unit: "per bag",
       image: cementImage,
+      featured: true,
+    },
+    {
+      name: "Conference Table",
+      description: "Durable and stylish conference table",
+      price: "₦15,000",
+      unit: "per ",
+      image: conferenceImage,
+      featured: true,
+    },
+    {
+      name: "Office Chair",
+      description: "Durable and comfortable office chair",
+      price: "₦25,000",
+      unit: "per chair",
+      image: officeChairImage,
+      featured: true,
+    },
+    {
+      name: "Office table & chair set",
+      description: "Durable and stylish office table and chair set",
+      price: "₦5,500",
+      unit: "per set",
+      image: officeTableChairImage,
       featured: true,
     },
   ];
