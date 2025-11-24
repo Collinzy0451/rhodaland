@@ -13,6 +13,9 @@ import cementImage from "@/assets/ccm/cement/dangote.jpg";
 import conferenceImage from "@/assets/conference.jpg";
 import officeChairImage from "@/assets/sit.jpg";
 import officeTableChairImage from "@/assets/office.jpg";
+import robotSeatImage from "@/assets/sit4.jpg";
+import prefabCafeImage from "@/assets/cafe.jpg";
+import miniPrefabImage from "@/assets/mini.jpg";
 
 const HomePage = () => {
   const featuredProducts = [
@@ -62,6 +65,30 @@ const HomePage = () => {
       price: "₦5,500",
       unit: "per set",
       image: officeTableChairImage,
+      featured: true,
+    },
+    {
+      name: "Modern Robot Seat",
+      description: "Durable and stylish modern robot seat",
+      price: "₦5,500",
+      unit: "per set",
+      image: robotSeatImage,
+      featured: true,
+    },
+    {
+      name: "Prefab Cafe",
+      description: "Durable and stylish prefab cafe",
+      price: "₦5,500",
+      unit: "per set",
+      image: prefabCafeImage,
+      featured: true,
+    },
+    {
+      name: "Mini Prefab",
+      description: "Durable and stylish mini prefab unit",
+      price: "₦5,500",
+      unit: "per set",
+      image: miniPrefabImage,
       featured: true,
     },
   ];
