@@ -6,13 +6,12 @@ import { Badge } from "@/components/ui/badge";
 interface ProductCardProps {
   name: string;
   description: string;
-  price: string;
   image: string;
   unit?: string;
   featured?: boolean;
 }
 
-const ProductCard = ({ name, description, price, image, unit = "per unit", featured }: ProductCardProps) => {
+const ProductCard = ({ name, description,  image, unit = "per unit", featured }: ProductCardProps) => {
   return (
     <Card className="overflow-hidden group hover:shadow-strong transition-all duration-300 h-full flex flex-col">
       <div className="aspect-square overflow-hidden relative">
@@ -31,8 +30,8 @@ const ProductCard = ({ name, description, price, image, unit = "per unit", featu
         <h3 className="font-bold text-lg mb-2 text-foreground">{name}</h3>
         <p className="text-muted-foreground text-sm mb-3 line-clamp-2">{description}</p>
         <div className="flex items-baseline gap-2">
-          <span className="text-2xl font-bold text-accent">{price}</span>
-          <span className="text-sm text-muted-foreground">{unit}</span>
+          {/* <span className="text-2xl font-bold text-accent">{price}</span> */}
+          {/* <span className="text-sm text-muted-foreground">{unit}</span> */}
         </div>
       </CardContent>
       <CardFooter className="p-4 pt-0 gap-2">

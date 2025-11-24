@@ -22,7 +22,7 @@ const HomePage = () => {
     {
       name: "Shower Cubicle",
       description: "Durable and stylish shower cubicle unit",
-      price: "₦15,000",
+      
       unit: "per unit",
       image: cubicleImage,
       featured: true,
