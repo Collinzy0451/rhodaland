@@ -26,7 +26,7 @@ const QuotePage = () => {
     
     // WhatsApp message
     const whatsappMessage = `*Quote Request*\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nCategory: ${formData.category}\nMaterial: ${formData.materialName}\nQuantity: ${formData.quantity}\nLocation: ${formData.location}\n\nMessage: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/2347066769620?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/+2347034640665?text=${encodeURIComponent(whatsappMessage)}`;
     
     // Open WhatsApp
     window.open(whatsappUrl, "_blank");
@@ -194,7 +194,7 @@ const QuotePage = () => {
         </Card>
 
         <div className="mt-8 text-center text-muted-foreground">
-          <p>Or call us directly: <a href="tel:+234 706 676 9620" className="text-accent hover:underline font-semibold">+234 706 676 9620</a></p>
+          <p>Or call us directly: <a href="tel:07034640665" className="text-accent hover:underline font-semibold">+234 706 676 9620</a></p>
         </div>
       </div>
     </div>

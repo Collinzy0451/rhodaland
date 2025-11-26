@@ -16,6 +16,9 @@ import officeTableChairImage from "@/assets/office.jpg";
 import robotSeatImage from "@/assets/sit4.jpg";
 import prefabCafeImage from "@/assets/cafe.jpg";
 import miniPrefabImage from "@/assets/mini.jpg";
+import BedTentImage from "@/assets/bedframe.jpg";
+import ContainerHomeImage from "@/assets/fancyhouse.jpg";
+import BelltentImage from "@/assets/camptent.jpg";  
 
 const HomePage = () => {
   const featuredProducts = [
@@ -89,6 +92,30 @@ const HomePage = () => {
       price: "₦5,500",
       unit: "per set",
       image: miniPrefabImage,
+      featured: true,
+    },
+    {
+      name: "RIYDH Bed Tent",
+      description: "Durable and stylish Bed Tent",
+      price: "₦5,500",
+      unit: "per set",
+      image: BedTentImage,
+      featured: true,
+    },
+    {
+      name: "Two Storey Container Home",
+      description: "Durable and stylish two storey container building",
+      price: "₦5,500",
+      unit: "per set",
+      image: ContainerHomeImage,
+      featured: true,
+    },
+    {
+      name: "EchoSmile Bell Tent",
+      description: "Durable and stylish Camping Tent",
+      price: "₦5,500",
+      unit: "per set",
+      image: BelltentImage,
       featured: true,
     },
   ];
