@@ -99,7 +99,6 @@ const Footer = () => {
                 <Phone className="h-4 w-4 mt-1 text-accent flex-shrink-0" />
                 <div>
                   <p>+234 703 464 0665</p>
-                  <p>+234 706 676 9620</p>
                 </div>
               </li>
               <li className="flex items-start gap-2">

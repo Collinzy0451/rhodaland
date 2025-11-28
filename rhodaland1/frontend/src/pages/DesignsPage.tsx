@@ -38,16 +38,16 @@ const DesignsPage = () => {
 
   const architects = [
     {
-      name: "Onyekuma Emmanuel",
+      name: "Priness Obah",
       specialization: "Residential & Commercial Design",
-      phone: "+234 123 456 7890",
-      email: "s.adeyemi@architects.com",
+      phone: " 09021569627",
+      email: "",
     },
     {
-      name: "Arch. Fatima Ibrahim",
+      name: "Sonia",
       specialization: "Industrial & Container Conversions",
-      phone: "+234 098 765 4321",
-      email: "f.ibrahim@architects.com",
+      phone: "09021569627",
+      email: "",
     },
   ];
 

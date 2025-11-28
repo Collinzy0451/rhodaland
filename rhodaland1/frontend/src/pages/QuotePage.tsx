@@ -194,7 +194,7 @@ const QuotePage = () => {
         </Card>
 
         <div className="mt-8 text-center text-muted-foreground">
-          <p>Or call us directly: <a href="tel:07034640665" className="text-accent hover:underline font-semibold">+234 706 676 9620</a></p>
+          <p>Or call us directly: <a href="tel:+234 703 464 0665" className="text-accent hover:underline font-semibold">+234 706 676 9620</a></p>
         </div>
       </div>
     </div>
