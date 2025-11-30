@@ -38,16 +38,16 @@ const DesignsPage = () => {
 
   const architects = [
     {
-      name: "Priness Obah",
-      specialization: "Residential & Commercial Design",
+      name: "Princess Obah",
+      specialization: "Building information modeling (BIM)",
       phone: " 09021569627",
-      email: "",
+      email: "omamusi46@gmail.com",
     },
     {
-      name: "Sonia",
-      specialization: "Industrial & Container Conversions",
-      phone: "09021569627",
-      email: "",
+      name: "Ekhator Sonia",
+      specialization: "Building information modeling (BIM)",
+      phone: " 09026787773",
+      email: "soniaraphael97@gmail.com",
     },
   ];
 
