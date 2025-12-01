@@ -92,7 +92,7 @@ const ContactPage = () => {
                       rel="noopener noreferrer"
                       className="text-sm text-muted-foreground hover:text-accent"
                     >
-                      +234 706 676 9620
+                      +234 703 464 0665
                     </a>
                   </div>
                 </div>
